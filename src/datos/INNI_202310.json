@@ -510,7 +510,7 @@
       "seccion": "D01",
       "materia": "ADMINISTRACION DE SERVIDORES",
       "cupo": 30,
-      "disponible": 1,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 59924,
       "clave": "I5908",
@@ -989,7 +989,7 @@
       "seccion": "D10",
       "materia": "ALGORITMIA",
       "cupo": 40,
-      "disponible": 10,
+      "disponible": 9,
       "creditos": 8,
       "nrc": 59829,
       "clave": "I5884",
@@ -1020,7 +1020,7 @@
       "seccion": "D12",
       "materia": "ALGORITMIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 140468,
       "clave": "I5884",
@@ -1787,7 +1787,7 @@
       "seccion": "D04",
       "materia": "CONTROL DE PROYECTOS",
       "cupo": 40,
-      "disponible": 3,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 126109,
       "clave": "I5901",
@@ -2123,7 +2123,7 @@
       "seccion": "D11",
       "materia": "ESTADISTICA Y PROCESOS ESTOCASTICOS",
       "cupo": 40,
-      "disponible": 12,
+      "disponible": 11,
       "creditos": 8,
       "nrc": 90314,
       "clave": "I5897",
@@ -2185,7 +2185,7 @@
       "seccion": "D14",
       "materia": "ESTADISTICA Y PROCESOS ESTOCASTICOS",
       "cupo": 40,
-      "disponible": 13,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 90036,
       "clave": "I5897",
@@ -2564,7 +2564,7 @@
       "seccion": "D07",
       "materia": "ESTRUCTURAS DE DATOS I",
       "cupo": 40,
-      "disponible": 13,
+      "disponible": 12,
       "creditos": 8,
       "nrc": 42369,
       "clave": "I5886",
@@ -2845,7 +2845,7 @@
       "seccion": "D03",
       "materia": "ESTRUCTURAS DE DATOS II",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 3,
       "creditos": 8,
       "nrc": 42375,
       "clave": "I5888",
@@ -2938,7 +2938,7 @@
       "seccion": "D06",
       "materia": "ESTRUCTURAS DE DATOS II",
       "cupo": 40,
-      "disponible": 19,
+      "disponible": 18,
       "creditos": 8,
       "nrc": 59584,
       "clave": "I5888",
@@ -3093,7 +3093,7 @@
       "seccion": "D11",
       "materia": "ESTRUCTURAS DE DATOS II",
       "cupo": 40,
-      "disponible": 19,
+      "disponible": 18,
       "creditos": 8,
       "nrc": 61882,
       "clave": "I5888",
@@ -3287,7 +3287,7 @@
       "seccion": "D06",
       "materia": "HIPERMEDIA",
       "cupo": 40,
-      "disponible": 29,
+      "disponible": 27,
       "creditos": 8,
       "nrc": 138632,
       "clave": "I5910",
@@ -3388,7 +3388,7 @@
       "seccion": "D02",
       "materia": "INGENIERIA DE SOFTWARE I",
       "cupo": 40,
-      "disponible": 6,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 78102,
       "clave": "I5898",
@@ -3419,7 +3419,7 @@
       "seccion": "D04",
       "materia": "INGENIERIA DE SOFTWARE I",
       "cupo": 40,
-      "disponible": 16,
+      "disponible": 15,
       "creditos": 8,
       "nrc": 78104,
       "clave": "I5898",
@@ -3801,7 +3801,7 @@
       "seccion": "D09",
       "materia": "MATEMATICA DISCRETA",
       "cupo": 20,
-      "disponible": 3,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 42456,
       "clave": "I5892",
@@ -3871,7 +3871,7 @@
       "seccion": "D01",
       "materia": "METODOS MATEMATICOS I",
       "cupo": 35,
-      "disponible": 3,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 117863,
       "clave": "I5893",
@@ -4479,7 +4479,7 @@
       "seccion": "D10",
       "materia": "METODOS MATEMATICOS II",
       "cupo": 40,
-      "disponible": 10,
+      "disponible": 9,
       "creditos": 8,
       "nrc": 42499,
       "clave": "I5895",
@@ -4572,7 +4572,7 @@
       "seccion": "D14",
       "materia": "METODOS MATEMATICOS II",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 42508,
       "clave": "I5895",
@@ -4813,7 +4813,7 @@
       "seccion": "D23",
       "materia": "METODOS MATEMATICOS II",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 87827,
       "clave": "I5895",
@@ -5046,7 +5046,7 @@
       "seccion": "D06",
       "materia": "PROGRAMACION",
       "cupo": 40,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 8,
       "nrc": 42578,
       "clave": "I5882",
@@ -5856,7 +5856,7 @@
       "seccion": "D01",
       "materia": "PROYECTO DE GESTION DE LA TECNOLOGIA DE INFORMACION",
       "cupo": 99,
-      "disponible": 58,
+      "disponible": 59,
       "creditos": 20,
       "nrc": 110200,
       "clave": "I5916",
@@ -5877,7 +5877,7 @@
       "seccion": "D01",
       "materia": "PROYECTO DE SISTEMAS ROBUSTOS, PARALELOS Y DISTRIBUIDOS",
       "cupo": 99,
-      "disponible": 61,
+      "disponible": 62,
       "creditos": 20,
       "nrc": 110201,
       "clave": "I5917",
@@ -7023,7 +7023,7 @@
       "seccion": "D55",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 5,
       "nrc": 42788,
       "clave": "I5883",
@@ -7161,7 +7161,7 @@
       "seccion": "D03",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE ALGORITMIA",
       "cupo": 24,
-      "disponible": -3,
+      "disponible": -4,
       "creditos": 5,
       "nrc": 42646,
       "clave": "I5885",
@@ -7421,7 +7421,7 @@
       "seccion": "D12",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE ALGORITMIA",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": -2,
       "creditos": 5,
       "nrc": 59721,
       "clave": "I5885",
@@ -7551,7 +7551,7 @@
       "seccion": "D17",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE ALGORITMIA",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 5,
       "nrc": 164135,
       "clave": "I5885",
@@ -7801,7 +7801,7 @@
       "seccion": "D08",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE ESTRUCTURAS DE DATOS I",
       "cupo": 24,
-      "disponible": 1,
+      "disponible": 0,
       "creditos": 5,
       "nrc": 59636,
       "clave": "I5887",
@@ -9317,7 +9317,7 @@
       "seccion": "D04",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE INGENIERIA DE SOFTWARE I",
       "cupo": 24,
-      "disponible": 1,
+      "disponible": 2,
       "creditos": 5,
       "nrc": 78119,
       "clave": "I5899",
@@ -9348,7 +9348,7 @@
       "seccion": "D06",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE INGENIERIA DE SOFTWARE I",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 5,
       "nrc": 78121,
       "clave": "I5899",
@@ -9416,7 +9416,7 @@
       "seccion": "D08",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE INGENIERIA DE SOFTWARE I",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 5,
       "nrc": 82847,
       "clave": "I5899",
@@ -9447,7 +9447,7 @@
       "seccion": "D09",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE INGENIERIA DE SOFTWARE I",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 5,
       "nrc": 90091,
       "clave": "I5899",
@@ -9540,7 +9540,7 @@
       "seccion": "D12",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE INGENIERIA DE SOFTWARE I",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 5,
       "nrc": 159309,
       "clave": "I5899",
@@ -10085,7 +10085,7 @@
       "seccion": "D04",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE METODOS MATEMATICOS I",
       "cupo": 35,
-      "disponible": 23,
+      "disponible": 22,
       "creditos": 5,
       "nrc": 42676,
       "clave": "I5894",
@@ -10116,7 +10116,7 @@
       "seccion": "D06",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE METODOS MATEMATICOS I",
       "cupo": 35,
-      "disponible": 17,
+      "disponible": 18,
       "creditos": 5,
       "nrc": 42695,
       "clave": "I5894",
@@ -10369,7 +10369,7 @@
       "seccion": "D35",
       "materia": "SEMINARIO DE SOLUCION DE PROBLEMAS DE METODOS MATEMATICOS I",
       "cupo": 35,
-      "disponible": 4,
+      "disponible": 3,
       "creditos": 5,
       "nrc": 124205,
       "clave": "I5894",
@@ -10776,7 +10776,7 @@
       "seccion": "D10",
       "materia": "TEORIA DE LA COMPUTACION",
       "cupo": 40,
-      "disponible": 9,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 42858,
       "clave": "I5915",
@@ -10902,7 +10902,7 @@
       "seccion": "D01",
       "materia": "USO, ADAPTACION Y EXPLOTACION DE SISTEMAS OPERATIVOS",
       "cupo": 40,
-      "disponible": 9,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 94498,
       "clave": "I5903",
@@ -11183,7 +11183,7 @@
       "seccion": "D05",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": 3,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 194923,
       "clave": "IL349",
@@ -11245,7 +11245,7 @@
       "seccion": "D07",
       "materia": "ADMINISTRACION",
       "cupo": 41,
-      "disponible": 6,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 194925,
       "clave": "IL349",
@@ -11276,7 +11276,7 @@
       "seccion": "D08",
       "materia": "ADMINISTRACION",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 194926,
       "clave": "IL349",
@@ -11557,7 +11557,7 @@
       "seccion": "D09",
       "materia": "ADMINISTRACION DE PROYECTOS TECNOLOGICOS",
       "cupo": 45,
-      "disponible": 1,
+      "disponible": 2,
       "creditos": 8,
       "nrc": 193736,
       "clave": "IL353",
@@ -11675,7 +11675,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Gonzalez Solis, Fernando Renan",
-      "url": "",
+      "url": "https://chat.whatsapp.com/ByKAhxZPllz6m7j2XVVKHq",
       "eliminada": true
     },
     "197386": {
@@ -11683,7 +11683,7 @@
       "seccion": "D03",
       "materia": "ALGEBRA LINEAL",
       "cupo": 40,
-      "disponible": 6,
+      "disponible": 5,
       "creditos": 8,
       "nrc": 197386,
       "clave": "IB056",
@@ -12041,7 +12041,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Lopez Arce Delgado, Jorge Ernesto",
-      "url": "",
+      "url": "https://chat.whatsapp.com/JeFNIYbE53H9DLA2q3poBE",
       "eliminada": true
     },
     "200205": {
@@ -12086,7 +12086,7 @@
       "seccion": "D05",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 10,
+      "disponible": 11,
       "creditos": 8,
       "nrc": 200206,
       "clave": "IL365",
@@ -12152,7 +12152,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Camarena Mendez, Jose Octavio",
-      "url": "",
+      "url": "https://chat.whatsapp.com/DdlFzlDGZ4UAtasF72t7uV",
       "eliminada": true
     },
     "200208": {
@@ -12294,7 +12294,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Garcia Hernandez, Martin",
-      "url": "",
+      "url": "https://chat.whatsapp.com/EV6STX0mpAPKd4WvHYqhcW",
       "eliminada": true
     },
     "200211": {
@@ -12302,7 +12302,7 @@
       "seccion": "D11",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 12,
+      "disponible": 10,
       "creditos": 8,
       "nrc": 200211,
       "clave": "IL365",
@@ -12376,7 +12376,7 @@
       "seccion": "D13",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 15,
+      "disponible": 14,
       "creditos": 8,
       "nrc": 200213,
       "clave": "IL365",
@@ -12442,7 +12442,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Morales Ramirez, Thelma Isabel",
-      "url": "",
+      "url": "https://chat.whatsapp.com/IzzSIbsnxzrJi37z1pQBeC",
       "eliminada": true
     },
     "200215": {
@@ -12479,7 +12479,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Morales Ramirez, Thelma Isabel",
-      "url": "",
+      "url": "https://chat.whatsapp.com/B6HNLwkIltBEiFiXPF1Ecn",
       "eliminada": true
     },
     "200216": {
@@ -12516,7 +12516,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Morales Ramirez, Thelma Isabel",
-      "url": "",
+      "url": "https://chat.whatsapp.com/EC3EHOAtFknDfd4wU4mG02",
       "eliminada": true
     },
     "200217": {
@@ -12524,7 +12524,7 @@
       "seccion": "D17",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "cupo": 24,
-      "disponible": 16,
+      "disponible": 15,
       "creditos": 8,
       "nrc": 200217,
       "clave": "IL365",
@@ -13182,7 +13182,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Cervantes Lomeli, Adrian",
-      "url": "",
+      "url": "https://chat.whatsapp.com/Gj2jlSGwdZ9Fx7npayLPl6",
       "eliminada": true
     },
     "197383": {
@@ -13289,7 +13289,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Gutierrez Hernandez, Alfredo",
-      "url": "",
+      "url": "https://chat.whatsapp.com/IFLB1Ogus46FGiQubSTmks",
       "eliminada": true
     },
     "200220": {
@@ -13375,7 +13375,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Gomez Marquez, Carolina Elizabeth",
-      "url": "",
+      "url": "https://chat.whatsapp.com/Be4BSGh0MgZAS654BCde0w",
       "eliminada": true
     },
     "200222": {
@@ -13418,7 +13418,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Gomez Marquez, Carolina Elizabeth",
-      "url": "",
+      "url": "https://chat.whatsapp.com/Lt2qy95WCSzD8As8LzOSPr",
       "eliminada": true
     },
     "200223": {
@@ -13461,7 +13461,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Mu\u00f1oz Gomez, Luis Alberto",
-      "url": "",
+      "url": "https://chat.whatsapp.com/FajOb1cRM7lCixVe7QGnzn",
       "eliminada": true
     },
     "200227": {
@@ -13504,7 +13504,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Galvez Lopez, Hector Alejandro",
-      "url": "",
+      "url": "https://chat.whatsapp.com/FEEtzS2CM0jEEM5xUW5oHP",
       "eliminada": true
     },
     "200224": {
@@ -13547,7 +13547,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Lupercio Coronel, Ramiro",
-      "url": "",
+      "url": "https://chat.whatsapp.com/LRVsZSmmxKE9d3s67QLrIH",
       "eliminada": true
     },
     "200225": {
@@ -13584,7 +13584,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Hinojosa Cervantes, Salvador Miguel",
-      "url": "",
+      "url": "https://chat.whatsapp.com/GwtX96G7JBDC2pa8Cb5d9x",
       "eliminada": true
     },
     "200226": {
@@ -14135,7 +14135,7 @@
       "seccion": "D05",
       "materia": "EXPRESION ORAL Y ESCRITA",
       "cupo": 40,
-      "disponible": -1,
+      "disponible": 1,
       "creditos": 6,
       "nrc": 193774,
       "clave": "LT251",
@@ -15476,7 +15476,7 @@
       "seccion": "D17",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 8,
+      "disponible": 7,
       "creditos": 8,
       "nrc": 200266,
       "clave": "I5288",
@@ -15507,7 +15507,7 @@
       "seccion": "D18",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "cupo": 24,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 200267,
       "clave": "I5288",
@@ -15955,7 +15955,7 @@
       "seccion": "D01",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 8,
       "nrc": 193721,
       "clave": "IL351",
@@ -15986,7 +15986,7 @@
       "seccion": "D02",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 41,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 193747,
       "clave": "IL351",
@@ -16077,7 +16077,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Ascencio Pi\u00f1a, Cesar Rodolfo",
-      "url": "",
+      "url": "https://chat.whatsapp.com/FnhGyPhwjVTGqCBooMmz94",
       "eliminada": true
     },
     "193750": {
@@ -16201,7 +16201,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Campos Villarreal, Rodrigo Antonio",
-      "url": "",
+      "url": "https://chat.whatsapp.com/HbpLyixDYCoE4VhrY26IKs",
       "eliminada": true
     },
     "193755": {
@@ -16240,7 +16240,7 @@
       "seccion": "D10",
       "materia": "INNOVACION Y TECNOLOGIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 200647,
       "clave": "IL351",
@@ -16397,7 +16397,7 @@
       "seccion": "D05",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 8,
       "nrc": 189638,
       "clave": "IL342",
@@ -16552,7 +16552,7 @@
       "seccion": "D12",
       "materia": "INTRODUCCION A LA INGENIERIA",
       "cupo": 40,
-      "disponible": 3,
+      "disponible": 4,
       "creditos": 8,
       "nrc": 194917,
       "clave": "IL342",
@@ -16622,7 +16622,7 @@
       "seccion": "D02",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": -2,
+      "disponible": -1,
       "creditos": 7,
       "nrc": 193759,
       "clave": "IL350",
@@ -16676,7 +16676,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Diaz Gonzalez, Jose Luis",
-      "url": "",
+      "url": "https://chat.whatsapp.com/JEtqVBrtuLW1rwfsvTQE4J",
       "eliminada": true
     },
     "193765": {
@@ -16870,7 +16870,7 @@
       "seccion": "D13",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200662,
       "clave": "IL350",
@@ -16955,7 +16955,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Marquez Frausto, Luis Antonio",
-      "url": "",
+      "url": "https://chat.whatsapp.com/J51UKUTpthyJDf6Re1Dgpg",
       "eliminada": true
     },
     "200665": {
@@ -16994,7 +16994,7 @@
       "seccion": "D17",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200666,
       "clave": "IL350",
@@ -17079,7 +17079,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Maciel Castillo, Oscar Eduardo",
-      "url": "",
+      "url": "https://chat.whatsapp.com/HBC5pIr7o2M1U24OLXAzGx",
       "eliminada": true
     },
     "200669": {
@@ -17087,7 +17087,7 @@
       "seccion": "D20",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 2,
+      "disponible": 1,
       "creditos": 7,
       "nrc": 200669,
       "clave": "IL350",
@@ -17141,7 +17141,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Marquez Frausto, Luis Antonio",
-      "url": "",
+      "url": "https://chat.whatsapp.com/DKCxJxWDqn9C6KznbIk7cO",
       "eliminada": true
     },
     "200671": {
@@ -17149,7 +17149,7 @@
       "seccion": "D22",
       "materia": "LIDERAZGO Y EMPRENDIMIENTO",
       "cupo": 40,
-      "disponible": 0,
+      "disponible": -1,
       "creditos": 7,
       "nrc": 200671,
       "clave": "IL350",
@@ -18366,7 +18366,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Mendoza Santos, Rosa Delia",
-      "url": "",
+      "url": "https://chat.whatsapp.com/GBT4pYmYtPo9NuprprN5fb",
       "eliminada": true
     },
     "200059": {
@@ -18397,7 +18397,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Mendoza Santos, Rosa Delia",
-      "url": "",
+      "url": "https://chat.whatsapp.com/BswYBGbHi7B1Dcc38QjMpM",
       "eliminada": true
     },
     "200060": {
@@ -18434,7 +18434,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Valdivia Bautista, Sandra Minerva",
-      "url": "",
+      "url": "https://chat.whatsapp.com/Cr09lX3bBdiGdWsVcV6DlN",
       "eliminada": true
     },
     "200061": {
@@ -18496,7 +18496,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Gonzalez Solis, Fernando Renan",
-      "url": "",
+      "url": "https://chat.whatsapp.com/FfXfKHOUFqG8k8lm6kE9bE",
       "eliminada": true
     },
     "200063": {
@@ -18527,7 +18527,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Hernandez Ortiz, Carlos Alberto",
-      "url": "",
+      "url": "https://chat.whatsapp.com/LfTTFbXQmzF4nbt02wLs88",
       "eliminada": true
     },
     "200064": {
@@ -19261,7 +19261,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Aceves Fernandez, Elizabeth",
-      "url": "",
+      "url": "https://chat.whatsapp.com/IYm92YRIkmO5AmoQGyJv5y",
       "eliminada": true
     },
     "200067": {
@@ -19329,7 +19329,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Martinez Vazquez, Ricardo",
-      "url": "",
+      "url": "https://chat.whatsapp.com/KGofU6ewAsq2a7aRuLjKQa",
       "eliminada": true
     },
     "200069": {
@@ -19360,7 +19360,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Ramirez Moreno, Benjamin",
-      "url": "",
+      "url": "https://chat.whatsapp.com/HwaqK5pidJL9DsdnmWUaef",
       "eliminada": true
     },
     "200070": {
@@ -19397,7 +19397,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Pantoja Espinoza, Deliazar",
-      "url": "",
+      "url": "https://chat.whatsapp.com/BanT2OzAvuD176V5zmg1Gj",
       "eliminada": true
     },
     "200071": {
@@ -20042,7 +20042,7 @@
       "seccion": "D01",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 4,
+      "disponible": 5,
       "creditos": 8,
       "nrc": 195113,
       "clave": "I5289",
@@ -20197,7 +20197,7 @@
       "seccion": "D06",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 7,
+      "disponible": 6,
       "creditos": 8,
       "nrc": 195119,
       "clave": "I5289",
@@ -20228,7 +20228,7 @@
       "seccion": "D07",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 40,
-      "disponible": 22,
+      "disponible": 20,
       "creditos": 8,
       "nrc": 195121,
       "clave": "I5289",
@@ -20383,7 +20383,7 @@
       "seccion": "D13",
       "materia": "PROGRAMACION ORIENTADA A OBJETOS",
       "cupo": 24,
-      "disponible": 9,
+      "disponible": 8,
       "creditos": 8,
       "nrc": 195130,
       "clave": "I5289",
@@ -20476,7 +20476,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Maldonado Mercado, Jose Ruben",
-      "url": "",
+      "url": "https://chat.whatsapp.com/DgbxdJ2kLNQ32U5bdjDAEC",
       "eliminada": true
     },
     "199890": {
@@ -20507,7 +20507,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Silva Mares, Oscar Gregorio",
-      "url": "",
+      "url": "https://chat.whatsapp.com/G2BuQUNjUDxAGSc0tWsu4l",
       "eliminada": true
     },
     "199891": {
@@ -20569,7 +20569,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Silva Mares, Oscar Gregorio",
-      "url": "",
+      "url": "https://chat.whatsapp.com/FHMF98fkWNmCuvz5XuoijB",
       "eliminada": true
     },
     "199892": {
@@ -20600,7 +20600,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Silva Mares, Oscar Gregorio",
-      "url": "",
+      "url": "https://chat.whatsapp.com/GLzd3MGgFaNC3D7fySIx2L",
       "eliminada": true
     },
     "199899": {
@@ -20631,7 +20631,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Maldonado Mercado, Jose Ruben",
-      "url": "",
+      "url": "https://chat.whatsapp.com/IAB2Malu99GGZ99XvfVuWz",
       "eliminada": true
     },
     "199900": {
@@ -20668,7 +20668,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Morales Gonzalez, Leopoldo",
-      "url": "",
+      "url": "https://chat.whatsapp.com/Ig5MlwlLZDbFD8BVT6XBSD",
       "eliminada": true
     },
     "199901": {
@@ -20699,7 +20699,7 @@
         "16/01/23 - 31/05/23"
       ],
       "profesor": "Morales Gonzalez, Leopoldo",
-      "url": "",
+      "url": "https://chat.whatsapp.com/EgMa4Dua7xC2zmPFX5BBcZ",
       "eliminada": true
     }
   },

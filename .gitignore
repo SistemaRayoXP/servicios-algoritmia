@@ -1,6 +1,9 @@
 # Una carpeta que tengo por Apache
 .proyectos_anteriores
 
+# La configuracion es especifica de cada instancia de la web
+src/datos/config.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
