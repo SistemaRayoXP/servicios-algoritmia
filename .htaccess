@@ -1,0 +1,3 @@
+<Files ~ "^\.woff2">
+   Require all granted
+</Files>

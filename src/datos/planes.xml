@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<planes>
+    <plan id="ICOM">
+        <malla nombre="Oficial" id="oficial">
+            <semestre numero="9">
+                <materia>IL360</materia>
+                <materia>IL371</materia>
+                <materia>IL374</materia>
+            </semestre>
+            <semestre numero="8">
+                <materia>IL359</materia>
+                <materia>IL368</materia>
+                <materia>IL373</materia>
+            </semestre>
+            <semestre numero="7">
+                <materia>IL357</materia>
+                <materia>IL370</materia>
+                <materia>IL372</materia>
+            </semestre>
+            <semestre numero="6">
+                <materia>IL351</materia>
+                <materia>IL367</materia>
+                <materia>CB224</materia>
+                <materia>IL358</materia>
+            </semestre>
+            <semestre numero="5">
+                <materia>IL355</materia>
+                <materia>IL356</materia>
+                <materia>IL366</materia>
+                <materia>IL361</materia>
+                <materia>IL364</materia>
+                <materia>IL369</materia>
+            </semestre>
+            <semestre numero="4">
+                <materia>IL354</materia>
+                <materia>IB067</materia>
+                <materia>IL348</materia>
+                <materia>IL365</materia>
+                <materia>IL362</materia>
+                <materia>IL350</materia>
+            </semestre>
+            <semestre numero="3">
+                <materia>I5289</materia>
+                <materia>IB056</materia>
+                <materia>IL347</materia>
+                <materia>IL346</materia>
+                <materia>IL363</materia>
+                <materia>IL349</materia>
+            </semestre>
+            <semestre numero="2">
+                <materia>IL352</materia>
+                <materia>IL345</materia>
+                <materia>IL344</materia>
+                <materia>IL343</materia>
+                <materia>IL353</materia>
+                <materia>LT251</materia>
+            </semestre>
+            <semestre numero="1">
+                <materia>I5288</materia>
+                <materia>I5247</materia>
+                <materia>IG738</materia>
+                <materia>IL340</materia>
+                <materia>IL342</materia>
+                <materia>IL341</materia>
+            </semestre>
+        </malla>
+        <malla nombre="Muñoz" id="munoz">
+            <semestre numero="9">
+                <materia>IL371</materia>
+                <materia>IL374</materia>
+            </semestre>
+            <semestre numero="8">
+                <materia>IL370</materia>
+                <materia>IL373</materia>
+            </semestre>
+            <semestre numero="7">
+                <materia>IL369</materia>
+                <materia>IL372</materia>
+                <materia>IL359</materia>
+            </semestre>
+            <semestre numero="6">
+                <materia>CB224</materia>
+                <materia>IL368</materia>
+                <materia>IL360</materia>
+                <materia>IL355</materia>
+                <materia>IL366</materia>
+                <materia>IL361</materia>
+            </semestre>
+            <semestre numero="5">
+                <materia>IL356</materia>
+                <materia>IL362</materia>
+                <materia>IL367</materia>
+                <materia>IL357</materia>
+                <materia>IL358</materia>
+                <materia>IL351</materia>
+            </semestre>
+            <semestre numero="4">
+                <materia>IL354</materia>
+                <materia>IL364</materia>
+                <materia>IL365</materia>
+                <materia>IL348</materia>
+                <materia>IL363</materia>
+                <materia>IL350</materia>
+            </semestre>
+            <semestre numero="3">
+                <materia>I5289</materia>
+                <materia>IL345</materia>
+                <materia>IB067</materia>
+                <materia>IL347</materia>
+                <materia>IL346</materia>
+                <materia>IL349</materia>
+            </semestre>
+            <semestre numero="2">
+                <materia>IL352</materia>
+                <materia>LT251</materia>
+                <materia>IB056</materia>
+                <materia>IL344</materia>
+                <materia>IL343</materia>
+                <materia>IL353</materia>
+            </semestre>
+            <semestre numero="1">
+                <materia>I5288</materia>
+                <materia>I5247</materia>
+                <materia>IL342</materia>
+                <materia>IG738</materia>
+                <materia>IL340</materia>
+                <materia>IL341</materia>
+            </semestre>
+        </malla>
+    </plan>
+    <plan id="INNI">
+        <malla nombre="Oficial" id="oficial">
+            <semestre numero="1">
+                <materia>I5882</materia>
+                <materia>I5883</materia>
+                <materia>I5892</materia>
+                <materia>I5893</materia>
+                <materia>I6123</materia>
+                <materia>I5894</materia>
+            </semestre>
+            <semestre numero="2">
+                <materia>I5886</materia>
+                <materia>I5887</materia>
+                <materia>I5915</materia>
+                <materia>I5895</materia>
+                <materia>I5896</materia>
+            </semestre>
+            <semestre numero="3">
+                <materia>I5888</materia>
+                <materia>I5889</materia>
+                <materia>I5907</materia>
+                <materia>I5884</materia>
+                <materia>I5885</materia>
+                <materia>I5897</materia>
+            </semestre>
+            <semestre numero="4">
+                <materia>I5890</materia>
+                <materia>I5891</materia>
+                <materia>I5908</materia>
+                <materia>I5910</materia>
+                <materia>I5898</materia>
+            </semestre>
+            <semestre numero="5">
+                <materia>I5901</materia>
+                <materia>I5905</materia>
+                <materia>I5909</materia>
+                <materia>I5900</materia>
+                <materia>I5899</materia>
+            </semestre>
+            <semestre numero="6">
+                <materia>IL354</materia>
+                <materia>IB067</materia>
+                <materia>IL348</materia>
+            </semestre>
+            <semestre numero="7">
+                <materia>I5906</materia>
+                <materia>I5992</materia>
+                <materia>I5911</materia>
+            </semestre>
+            <semestre numero="8">
+                <materia>I5913</materia>
+                <materia>I5914</materia>
+                <materia>I5912</materia>
+            </semestre>
+        </malla>
+    </plan>
+</planes>

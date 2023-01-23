@@ -1,0 +1,6 @@
+.offcanvas-background {
+    background-position: top;
+    background-size: cover;
+    background-image: url('../img/bg.jpg');
+    padding-bottom: 7rem !important;
+}
