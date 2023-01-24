@@ -2,7 +2,7 @@
 
 class HtmlTemplate
 {
-    const WEBSITE_NAME = "Club de Algoritmia";
+    const WEBSITE_NAME = "Servicios DIVTIC";
     const WEBSITE_ICON = "/res/img/logo.svg";
 
     private DOMDocument $document;
