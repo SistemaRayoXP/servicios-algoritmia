@@ -1,4 +1,4 @@
-# servicios-algoritmia
+# servicios-divtic
 Página web de servicios para estudiantes
 
 ## Requisitos
