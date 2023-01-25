@@ -106,7 +106,7 @@ function crearDialogoAdicion(DOMElement $padre, DOMDocument $dom)
             'id' => 'enlace',
             'name' => 'enlace',
             'placeholder' => 'Ej. https://chat.whatsapp.com/abcxyz123789',
-            'pattern' => '^(?:https:\/\/)?(?:www\.)?chat\.whatsapp\.com\/\w+$',
+            'pattern' => '^(?:https:\/\/)?(?:www\.)?chat\.whatsapp\.com\/[\d\w]+$',
             'required' => '',
             'autocomplete' => 'off',
         ],
@@ -347,7 +347,7 @@ function peticion()
             ];
 
             $regexNrc = "/^\d{6}$/";
-            $regexEnlace = "/^(?:https:\/\/)?(?:www\.)?chat\.whatsapp\.com\/\w+$/";
+            $regexEnlace = "/^(?:https:\/\/)?(?:www\.)?chat\.whatsapp\.com\/[\w\d]+$/";
 
             $nrc = $_POST['nrc'];
             $enlace = $_POST['enlace'];
