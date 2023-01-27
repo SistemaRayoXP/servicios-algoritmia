@@ -3,28 +3,32 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/src/init.php');
 
 function crearBotonWhatsApp(string $url, string $nrc, DOMElement $padre, DOMDocument $doc)
 {
-    $agregarWhatsApp = crearElementoDOM($doc, "button", null, [
-        'class' => 'btn btn-outline-secondary text-body grupo-agregable',
-        'data-nrc' => $nrc,
-        'data-tipo-adicion' => 'nuevo',
-        'data-bs-toggle' => 'modal',
-        'data-bs-target' => '#dialogoAdicionGrupo',
-    ], $padre);
-
     if ($url) {
         $padre->appendChild($doc->createTextNode(' '));
         $enlaceWhatsApp = crearElementoDOM($doc, 'a', null, [
             'href' => $url,
             'class' => 'btn btn-success',
         ], $padre);
-        crearTextoConIcono('Grupo de WhatsApp', 'fab fa-whatsapp', $doc,$enlaceWhatsApp);
+        crearTextoConIcono('Grupo de WhatsApp', 'fab fa-whatsapp', $doc, $enlaceWhatsApp);
 
-        $agregarWhatsApp->setAttribute('class', 'btn btn-outline-success text-body grupo-agregable');
-        $agregarWhatsApp->setAttribute('data-tipo-adicion', 'actualizar',);
-        $agregarWhatsApp->setAttribute('title', 'Actualizar enlace',);
-        crearElementoDOM($doc, 'i', null, ['class' => 'far fa-redo'], $agregarWhatsApp);
+        $agregarWhatsApp = crearElementoDOM($doc, "button", null, [
+            'class' => 'btn btn-outline-secondary text-body grupo-agregable',
+            'data-nrc' => $nrc,
+            'data-tipo-adicion' => 'actualizar',
+            'data-bs-toggle' => 'modal',
+            'data-bs-target' => '#dialogoAdicionGrupo',
+            'title' => 'Actualizar enlace',
+        ], $padre);
+        crearIcono('fas fa-redo', $doc, $agregarWhatsApp);
     } else {
-        crearTextoConIcono('Agregar enlace', 'far fa-plus', $doc, $agregarWhatsApp);
+        $agregarWhatsApp = crearElementoDOM($doc, "button", null, [
+            'class' => 'btn btn-outline-secondary text-body grupo-agregable',
+            'data-nrc' => $nrc,
+            'data-tipo-adicion' => 'nuevo',
+            'data-bs-toggle' => 'modal',
+            'data-bs-target' => '#dialogoAdicionGrupo',
+        ], $padre);
+        crearTextoConIcono('Agregar enlace', 'fas fa-plus', $doc, $agregarWhatsApp);
     }
 }
 
@@ -69,7 +73,7 @@ function crearDialogoAdicion(DOMElement $padre, DOMDocument $dom)
         $dom,
         "i",
         null,
-        ['class' => 'far fa-fingerprint'],
+        ['class' => 'fas fa-fingerprint'],
         crearElementoDOM($dom, "span", null, ['class' => 'input-group-text'], $contenedorInputNrc)
     );
     crearElementoDOM(
@@ -93,7 +97,7 @@ function crearDialogoAdicion(DOMElement $padre, DOMDocument $dom)
         $dom,
         "i",
         null,
-        ['class' => 'far fa-link'],
+        ['class' => 'fas fa-link'],
         crearElementoDOM($dom, "span", null, ['class' => 'input-group-text'], $contenedorInputEnlace)
     );
     crearElementoDOM(
@@ -118,7 +122,7 @@ function crearDialogoAdicion(DOMElement $padre, DOMDocument $dom)
         'type' => 'submit',
         'class' => 'btn btn-success',
     ], $pieModal);
-    crearTextoConIcono("Añadir grupo", "far fa-plus", $dom, $botonEnviar);
+    crearTextoConIcono("Añadir grupo", "fas fa-plus", $dom, $botonEnviar);
 }
 
 function crearVistaOferta(array $materias, string $plan, DOMElement $padre, DOMDocument $dom)
@@ -204,15 +208,15 @@ function crearVistaOferta(array $materias, string $plan, DOMElement $padre, DOMD
 
                 $subtextoHorario = crearElementoDOM($dom, 'div', null, ['class' => 'card-text my-2'], $tarjetaCuerpo);
                 $dias = crearElementoDOM($dom, 'div', null, [], $subtextoHorario);
-                crearTextoConIcono(implode(", ", $curso->obtenerDias()), 'far fa-calendar', $dom, $dias);
+                crearTextoConIcono(implode(", ", $curso->obtenerDias()), 'fas fa-calendar', $dom, $dias);
                 $horas = crearElementoDOM($dom, 'div', null, [], $subtextoHorario);
-                crearTextoConIcono(implode(", ", $curso->obtenerHoras()), 'far fa-clock', $dom, $horas);
+                crearTextoConIcono(implode(", ", $curso->obtenerHoras()), 'fas fa-clock', $dom, $horas);
 
                 $subtextoEdificio = crearElementoDOM($dom, 'div', null, ['class' => 'card-text my-2'], $tarjetaCuerpo);
                 $edificio = crearElementoDOM($dom, 'div', null, [], $subtextoEdificio);
-                crearTextoConIcono(implode(", ", $curso->obtenerEdificio()), 'far fa-building', $dom, $edificio);
+                crearTextoConIcono(implode(", ", $curso->obtenerEdificio()), 'fas fa-building', $dom, $edificio);
                 $aula = crearElementoDOM($dom, 'div', null, [], $subtextoEdificio);
-                crearTextoConIcono(implode(", ", $curso->obtenerAula()), 'far fa-chalkboard', $dom, $aula);
+                crearTextoConIcono(implode(", ", $curso->obtenerAula()), 'fas fa-chalkboard', $dom, $aula);
 
                 $tarjetaPies = crearElementoDOM($dom, 'div', null, ['class' => 'card-footer bg-outline-success'], $tarjeta);
                 crearBotonWhatsApp($curso->url, $curso->nrc, $tarjetaPies, $dom);
