@@ -14,7 +14,7 @@ function ejecutarTareasProgramadas()
     ];
 
     foreach ($tareas as $comando) {
-        echo shell_exec($comando);
+        var_dump(shell_exec($comando));
     }
 }
 
@@ -54,7 +54,7 @@ function eliminarCron()
 
 function iniciarCron()
 {
-    verificarYEstablecerEjecucionCron();
+    // verificarYEstablecerEjecucionCron();
     ejecutarTareasProgramadas();
 }
 

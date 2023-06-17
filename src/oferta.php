@@ -2,13 +2,6 @@
 
 require("CatalogoMaterias.php");
 
-function obtenerCicloActual()
-{
-    $cadenaCiclo = date("Y");
-    $cadenaCiclo .= intval(date("M")) <= 6 ? "10" : "20";
-    return $cadenaCiclo;
-}
-
 function cargarXml()
 {
     $rutaPlanes = CARPETA_DATOS . '/planes.xml';
@@ -99,7 +92,7 @@ function cargarSemestre(string $idPlan, string $idMalla, int $numSemestre)
 
 function cargarOferta(string $plan, string $malla, string $semestre)
 {
-    $ciclo = obtenerCicloActual();
+    $ciclo = CatalogoMaterias::obtenerCicloActual();
     $nombreCatalogo = sprintf("%s_%s.json", $plan, $ciclo);
     $rutaCatalogo = implode(DIRECTORY_SEPARATOR, [CARPETA_DATOS, $nombreCatalogo]);
     $materias = cargarSemestre($plan, $malla, $semestre);

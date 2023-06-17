@@ -97,16 +97,16 @@ class CatalogoMaterias
         return array_keys($this->__aplanarMaterias__());
     }
 
-    function obtenerCicloActual()
+    static function obtenerCicloActual()
     {
         $cadenaCiclo = date("Y");
-        $cadenaCiclo .= intval(date("M")) <= 6 ? "10" : "20";
+        $cadenaCiclo .= intval(date("m")) < 6 ? "10" : "20";
         return $cadenaCiclo;
     }
 
     function obtenerRutaActualCatalogoMaterias()
     {
-        $cadenaCatalogo = sprintf("%s_%s.json", $this->idPlan, $this->obtenerCicloActual());
+        $cadenaCatalogo = sprintf("%s_%s.json", $this->idPlan, CatalogoMaterias::obtenerCicloActual());
         $rutaCatalogo = implode(DIRECTORY_SEPARATOR, [CARPETA_DATOS, $cadenaCatalogo]);
         return $rutaCatalogo;
     }
@@ -172,10 +172,9 @@ class CatalogoMaterias
     function obtener(int $nrc)
     {
         $catalogoMaterias = $this->__aplanarMaterias__();
-        $nrcsCatalogoMaterias = $this->obtenerNrcsCatalogo();
 
-        if (!$nrcsCatalogoMaterias)
-            throw new RangeException("El NRC no se encuentra en el catálogo", 1);
+        if (array_search($nrc, array_keys($catalogoMaterias)) === false)
+            throw new RangeException("El NRC '$nrc' no se encuentra en el catálogo '{$this->rutaCatalogoMaterias}'", 1);
 
         return $catalogoMaterias[$nrc];
     }
