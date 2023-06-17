@@ -53,7 +53,7 @@ def main():
 
     # Si hay claves, iteramos y obtenemos la oferta de cada una
     if args.claves:
-        catalogo = CatalogoMaterias(args.plan,
+        catalogo = CatalogoMaterias(args.plan, args.ciclo,
                                     prevenirAutoActualizacion=True)
         for clave in args.claves:
             if len(clave) == 5 and clave.isalnum():
@@ -68,13 +68,13 @@ def main():
 
     # Sino, por defecto actualizamos el catálogo de planes completo
     else:
-        catalogo = CatalogoMaterias(PLAN_DEF,
+        catalogo = CatalogoMaterias(args.plan, args.ciclo,
                                     prevenirAutoActualizacion=True)
         planes = obtenerPlanes()
         for planTag in planes:
             catalogo.actualizarPlanSeleccionado(planTag.attrib["id"])
             print(f"Actualizando {catalogo.idPlan}...")
-            materias = catalogo.consultarSiiau(CICLO_ACTUAL, CENTRO_DEF)
+            materias = catalogo.consultarSiiau(args.ciclo, args.centro)
             catalogo.actualizarTodo(materias)
 
     print("Actualización finalizada")

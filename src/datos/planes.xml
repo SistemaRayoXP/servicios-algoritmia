@@ -128,6 +128,67 @@
             </semestre>
         </malla>
     </plan>
+        <plan id="INFO">
+        <malla nombre="Oficial" id="oficial">
+            <semestre numero="1">
+                <materia>I5288</materia>
+                <materia>I5247</materia>
+                <materia>IG738</materia>
+                <materia>IL340</materia>
+                <materia>V0709</materia>
+                <materia>V0714</materia>
+            </semestre>
+            <semestre numero="2">
+                <materia>V0716</materia>
+                <materia>V0711</materia>
+                <materia>V0710</materia>
+                <materia>IL343</materia>
+                <materia>V0715</materia>
+            </semestre>
+            <semestre numero="3">
+                <materia>I5289</materia>
+                <materia>IB056</materia>
+                <materia>V0712</materia>
+                <materia>IC591</materia>
+                <materia>V0717</materia>
+            </semestre>
+            <semestre numero="4">
+                <materia>V0731</materia>
+                <materia>IB067</materia>
+                <materia>V0713</materia>
+                <materia>V0730</materia>
+                <materia>I5629</materia>
+            </semestre>
+            <semestre numero="5">
+                <materia>CB224</materia>
+                <materia>CU206</materia>
+                <materia>IL361</materia>
+                <materia>V0719</materia>
+                <materia>IL364</materia>
+                <materia>V0733</materia>
+            </semestre>
+            <semestre numero="6">
+                <materia>V0732</materia>
+                <materia>V0718</materia>
+                <materia>V0723</materia>
+            </semestre>
+            <semestre numero="7">
+                <materia>V0724</materia>
+                <materia>V0734</materia>
+                <materia>V0720</materia>
+            </semestre>
+            <semestre numero="8">
+                <materia>V0725</materia>
+                <materia>V0734</materia>
+                <materia>V0721</materia>
+            </semestre>
+            <semestre numero="9">
+                <materia>V0727</materia>
+                <materia>V0735</materia>
+                <materia>V0722</materia>
+            </semestre>
+        </malla>
+    </plan>
     <plan id="INNI">
         <malla nombre="Oficial" id="oficial">
             <semestre numero="1">

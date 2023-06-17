@@ -35,16 +35,18 @@ class CatalogoMaterias():
     rutaCatalogoMaterias = str()
     materias = {}
     idPlan = PLAN_DEF
+    ciclo = CICLO_ACTUAL
 
-    def __init__(self, idPlan, prevenirAutoActualizacion=False):
+    def __init__(self, idPlan, ciclo = CICLO_ACTUAL, prevenirAutoActualizacion=False):
         self.idPlan = idPlan
         self.rutaCatalogoMaterias = self.obtenerRutaActualCatalogoMaterias()
+        self.ciclo = ciclo
         self.cargar()
 
         if not self.materias and not prevenirAutoActualizacion:
             materiasSiiau = []
             materiasSiiau.extend(
-                self.consultarSiiau(CICLO_ACTUAL, CENTRO_DEF, self.idPlan)
+                self.consultarSiiau(self.ciclo, CENTRO_DEF, self.idPlan)
             )
             self.actualizarTodo(materiasSiiau)
 
@@ -187,7 +189,7 @@ class CatalogoMaterias():
         return list(self.__aplanarMaterias__().keys())
 
     def obtenerRutaActualCatalogoMaterias(self):
-        cadenaCatalogo = f"{self.idPlan}_{CICLO_ACTUAL}.json"
+        cadenaCatalogo = f"{self.idPlan}_{self.ciclo}.json"
 
         rutaCatalogo = os.path.join(CARPETA_DATOS, cadenaCatalogo)
 
