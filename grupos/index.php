@@ -177,7 +177,10 @@ function crearVistaOferta(array $materias, string $plan, DOMElement $padre, DOMD
                 $dom,
                 "div",
                 null,
-                ['class' => 'accordion-body row'],
+                [
+                    'class' => 'accordion-body row px-0',
+                    'style' => 'margin: inherit !important',
+                ],
                 $acordeonColapso
             );
 
@@ -186,13 +189,21 @@ function crearVistaOferta(array $materias, string $plan, DOMElement $padre, DOMD
                 if (!$tituloAcordeon) {
                     $tituloAcordeon = "{$curso->clave} - {$curso->obtenerNombre()}";
                 }
+                
+                $contenedor = crearElementoDOM(
+                    $dom,
+                    'div',
+                    null,
+                    ['class' => 'px-0 px-md-2 py-2 col-md-6 col-lg-4 col-xxl-3 d-grid'],
+                    $cuerpoAcordeon
+                );
 
                 $tarjeta = crearElementoDOM(
                     $dom,
                     'div',
                     null,
-                    ['class' => 'card text-center my-3col-xs-12 col-md-6 col-lg-4 col-xxl-3'],
-                    $cuerpoAcordeon
+                    ['class' => 'card text-center'],
+                    $contenedor
                 );
 
                 crearElementoDOM(
@@ -206,17 +217,34 @@ function crearVistaOferta(array $materias, string $plan, DOMElement $padre, DOMD
                 $tarjetaCuerpo = crearElementoDOM($dom, 'div', null, ['class' => 'card-body bg-light-subtle'], $tarjeta);
                 crearElementoDOM($dom, 'h5', $curso->obtenerProfesor(), ['class' => 'card-title'], $tarjetaCuerpo);
 
-                $subtextoHorario = crearElementoDOM($dom, 'div', null, ['class' => 'card-text my-2'], $tarjetaCuerpo);
-                $dias = crearElementoDOM($dom, 'div', null, [], $subtextoHorario);
-                crearTextoConIcono(implode(", ", $curso->obtenerDias()), 'fas fa-calendar', $dom, $dias);
-                $horas = crearElementoDOM($dom, 'div', null, [], $subtextoHorario);
-                crearTextoConIcono(implode(", ", $curso->obtenerHoras()), 'fas fa-clock', $dom, $horas);
+                if ($curso->obtenerDias() || $curso->obtenerHoras() || $curso->obtenerEdificio() || $curso->obtenerAula()) {
+                    if ($curso->obtenerDias() || $curso->obtenerHoras()) {
+                        $subtextoHorario = crearElementoDOM($dom, 'div', null, ['class' => 'card-text my-2'], $tarjetaCuerpo);
+                        if ($curso->obtenerDias()) {
+                            $dias = crearElementoDOM($dom, 'div', null, [], $subtextoHorario);
+                            crearTextoConIcono(implode(", ", $curso->obtenerDias()), 'fas fa-calendar', $dom, $dias);
+                        }
+                        if ($curso->obtenerHoras()) {
+                            $horas = crearElementoDOM($dom, 'div', null, [], $subtextoHorario);
+                            crearTextoConIcono(implode(", ", $curso->obtenerHoras()), 'fas fa-clock', $dom, $horas);
+                        }
+                    }
 
-                $subtextoEdificio = crearElementoDOM($dom, 'div', null, ['class' => 'card-text my-2'], $tarjetaCuerpo);
-                $edificio = crearElementoDOM($dom, 'div', null, [], $subtextoEdificio);
-                crearTextoConIcono(implode(", ", $curso->obtenerEdificio()), 'fas fa-building', $dom, $edificio);
-                $aula = crearElementoDOM($dom, 'div', null, [], $subtextoEdificio);
-                crearTextoConIcono(implode(", ", $curso->obtenerAula()), 'fas fa-chalkboard', $dom, $aula);
+                    if ($curso->obtenerEdificio() || $curso->obtenerAula()) {
+                        $subtextoEdificio = crearElementoDOM($dom, 'div', null, ['class' => 'card-text my-2'], $tarjetaCuerpo);
+                        if ($curso->obtenerEdificio()) {
+                            $edificio = crearElementoDOM($dom, 'div', null, [], $subtextoEdificio);
+                            crearTextoConIcono(implode(", ", $curso->obtenerEdificio()), 'fas fa-building', $dom, $edificio);
+                        }
+                        if ($curso->obtenerAula()) {
+                            $aula = crearElementoDOM($dom, 'div', null, [], $subtextoEdificio);
+                            crearTextoConIcono(implode(", ", $curso->obtenerAula()), 'fas fa-chalkboard', $dom, $aula);
+                        }
+                    }
+                } else {
+                    $info = crearElementoDOM($dom, 'div', null, [], $tarjetaCuerpo);
+                    crearTextoConIcono("Sin información de esta clase.", 'fas fa-question-circle', $dom, $info);
+                }
 
                 $tarjetaPies = crearElementoDOM($dom, 'div', null, ['class' => 'card-footer bg-outline-success'], $tarjeta);
                 crearBotonWhatsApp($curso->url, $curso->nrc, $tarjetaPies, $dom);
