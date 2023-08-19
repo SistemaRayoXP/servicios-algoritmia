@@ -410,9 +410,10 @@ function peticion()
             }
 
             respuestaJson($respuesta);
+        } else {
+            die('Error en solicitud');
         }
 
-        die('Error en solicitud');
     } else {
         construirDocumento();
     }

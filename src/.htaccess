@@ -1,0 +1,7 @@
+
+# HTID:21133255: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile "/storage/ssd1/565/20194565/public_html/src/.htpasswd"
+Require user mexialan1109
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:21133255:
